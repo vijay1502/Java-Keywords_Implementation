@@ -10,14 +10,19 @@ public class mainClass {
         int age=scanner.nextInt();
         String name=scanner.nextLine();
         int salary=scanner.nextInt();
-//        Implementation implementation=new Implementation();
-//        implementation.method1();
-//        implementation.method2();
+        Integer integer=new Integer(10);
+        int i1=integer;
+        System.out.println(i1);
+        Implementation implementation=new Implementation();
+        implementation.method1();
+        implementation.method2();
+
         InheritenceClass inheritenceClass=new InheritenceClass(age,salary);
         inheritenceClass.setAge(age);
         inheritenceClass.setSalary(salary);
         inheritenceClass.method1();
-
+        implementation.method1Prog();
+        implementation.method2Prog();
 //        inheritenceClass.method2();
 //        ArraysExample arraysExample=new ArraysExample();
 //        arraysExample.singleDimentionalExample(3);
@@ -27,5 +32,7 @@ public class mainClass {
         inheritenceClass.getSalary();
         System.out.println(inheritenceClass.getAge());
 
+
     }
+
 }

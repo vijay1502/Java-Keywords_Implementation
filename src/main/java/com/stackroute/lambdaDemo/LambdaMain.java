@@ -16,8 +16,6 @@ public class LambdaMain {
             System.out.println("Lambda");
             System.out.println("Another Lambda");
             System.out.println("Lambda2");
-
-
         }
         ).start();
     }

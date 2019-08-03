@@ -1,16 +1,21 @@
 package com.stackroute.OOPSExamples;
 
-public class Implementation implements inetrfaceProgram {
+public class Implementation implements InetrfaceProgram {
     public Implementation() {
     }
 
     @Override
-    public void method1() {
-        System.out.println("Hello World");
+    public int method1() {
+        System.out.println("21");
+        return (int) Math.log(343.32);
+
     }
 
     @Override
-    public void method2() {
-        System.out.println("Hey World");
+    public String method2() {
+        System.out.println("Vijay");
+        return "Vijay";
     }
+
+
 }

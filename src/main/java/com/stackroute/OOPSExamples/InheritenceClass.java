@@ -1,5 +1,7 @@
 package com.stackroute.OOPSExamples;
 
+
+
 public class InheritenceClass extends Implementation{
      private int age;
     private int salary;
@@ -10,15 +12,15 @@ public class InheritenceClass extends Implementation{
     }
 
     @Override
-    public void method1() {
+    public int method1() {
 
-        System.out.println("Heyyyy");
+        return 22;
     }
 
     @Override
-    public void method2() {
-
-        System.out.println("Hoyyyy");
+    public String method2() {
+        super.method2();
+        return "VVIjay";
     }
     public String method3(int serial,String name,int age){
         return ("serial is "+serial+" name is "+name+" age is "+age);
