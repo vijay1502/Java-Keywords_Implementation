@@ -39,7 +39,7 @@ public class ConditionalLoopsAndStatements {
 //The selected option will check 3 cases, whether they are unique, dual or triple in nature using switch cases
 public void switchCases(int number){
         switch (number){
-
+    //WE switch to a particular number
             case 1:
                 System.out.println("THe given number is unique");
                 break;
