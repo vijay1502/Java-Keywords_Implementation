@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e914d9c0-b473-4020-87e9-6138a4b7c1a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/CustomExceptionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/ExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/InterfaceByType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/StringIntegerConversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/Implementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/InheritenceClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/InheritenceClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/interfaceProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/InetrfaceProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/mainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/mainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/lambdaDemo/LambdaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/lambdaDemo/LambdaMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564820962183</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Some Methods Changes">
+      <created>1564831287344</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564831287344</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,19 +212,20 @@
     <MESSAGE value="User based Double dimension is created" />
     <MESSAGE value="OOPS Classes Created" />
     <MESSAGE value="Oops class changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oops class changed" />
+    <MESSAGE value="Some Methods Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some Methods Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/mainClass.java</url>
-          <line>8</line>
+          <line>9</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/mainClass.java</url>
-          <line>6</line>
+          <line>7</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
