@@ -10,7 +10,7 @@ public class ArraysExample {
         int inputNumber=scanner.nextInt();
         ArraysExample arraysExample=new ArraysExample();
         arraysExample.singleDimentionalExample(inputNumber);
-        arraysExample.twoDimensionalArrayExample(3);
+        arraysExample.twoDimensionalArrayExample(inputNumber,inputNumber);
     }
 //This method will provide us the string array based output on Single Dimension
     public void singleDimentionalExample(int input){
@@ -28,7 +28,10 @@ public class ArraysExample {
         System.out.println(output[i].toString()); }}
 
         //This method is meant to define 2 dimensional array output
-        public void twoDimensionalArrayExample(int number){
+        //We provide HardCoded and User INput Based Output
+        public void twoDimensionalArrayExample(int rows,int columns){
+        //The input hardCode input will not help user to use his own values
+            Scanner scanner=new Scanner(System.in);
         int[][] hardCodedInput={{2,3},{2,4}};
         for (int i=0;i<2;i++){
             for (int j=0;j<2;j++){
@@ -36,4 +39,19 @@ public class ArraysExample {
             System.out.print(hardCodedInput[i][j]+" ");
                 }
             System.out.println("\n");}
+
+        int[][] userBasedInput=new int[rows][columns];
+        for (int i=0;i<rows;i++){
+            for (int j=0;j<columns;j++){
+                int a=scanner.nextInt();
+                userBasedInput[i][j]=a;
+
+            }
+           }
+        for (int i=0;i<rows;i++){
+            for (int j=0;j<columns;j++){
+                System.out.print(userBasedInput[i][j]+" ");
+            }
+            System.out.println("\n");
+        }
 }}
