@@ -11,6 +11,7 @@ public class ConditionalLoopsAndStatements {
         System.out.println(conditionalLoopsAndStatements.IfCondition(number));
         conditionalLoopsAndStatements.forCondition(number);
         conditionalLoopsAndStatements.doWhileCondition(number);
+        conditionalLoopsAndStatements.switchCases(number);
     }
     //This method is used to implement If Condition
     //To check whether the number is divisible by 3 or not
@@ -27,14 +28,32 @@ public class ConditionalLoopsAndStatements {
         }
     }
 
-    
-    public void doWhileCondition(int number){
+//While the given number is less than 50, it starts counting...else it doesn't
+   public void doWhileCondition(int number){
         do{
             System.out.println(number=number+2);
         }
         while (number<50);
     }
-public void switchCases(){
+ //This Class will provide option based output, using switch case statements
+//The selected option will check 3 cases, whether they are unique, dual or triple in nature using switch cases
+public void switchCases(int number){
+        switch (number){
 
-}}
+            case 1:
+                System.out.println("THe given number is unique");
+                break;
+            case 2:
+
+                System.out.println("The given number is Dual");
+                break;
+            case 3:
+
+                System.out.println("The given number is Triple");
+                break;
+            default:
+                System.out.println("The given numer is "+number);
+                break;
+        }}
+}
 
