@@ -1,6 +1,7 @@
 package com.stackroute.OOPSExamples;
 import com.stackroute.ArraysExample;
 import com.stackroute.ArraysExample.*;
+import com.stackroute.StringBuilderExample;
 import com.stackroute.StringIntegerConversion;
 
 import java.util.Scanner;
@@ -27,6 +28,8 @@ public class mainClass {
         StringIntegerConversion stringIntegerConversion=new StringIntegerConversion();
         System.out.println(stringIntegerConversion.integerConversion());
         System.out.println(stringIntegerConversion.stringConversion());
+        StringBuilderExample stringBuilderExample=new StringBuilderExample();
+        stringBuilderExample.stringBuilderReplacement(name,"Vijay");
 //        inheritenceClass.method2();
 //        ArraysExample arraysExample=new ArraysExample();
 //        arraysExample.singleDimentionalExample(3);
