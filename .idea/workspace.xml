@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e914d9c0-b473-4020-87e9-6138a4b7c1a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/StringBuilderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/BasicIOExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/CollectionsExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/mainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/mainClass.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../track-service" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Java-Exercises-pe3" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -48,9 +48,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mainClass">
-    <configuration name="ArraysExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.ArraysExample" />
+  <component name="RunManager" selected="Application.CollectionsExample">
+    <configuration name="BasicIOExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.BasicIOExample" />
       <module name="Java-Keyword-Implementations" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionalLoopsAndStatements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.ConditionalLoopsAndStatements" />
+    <configuration name="CollectionsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.CollectionsExample" />
       <module name="Java-Keyword-Implementations" />
       <extension name="coverage">
         <pattern>
@@ -115,19 +115,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConditionalLoopsAndStatements" />
-      <item itemvalue="Application.ArraysExample" />
       <item itemvalue="Application.LambdaMain" />
       <item itemvalue="Application.mainClass" />
       <item itemvalue="Application.ExceptionHandling" />
+      <item itemvalue="Application.BasicIOExample" />
+      <item itemvalue="Application.CollectionsExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionsExample" />
+        <item itemvalue="Application.BasicIOExample" />
         <item itemvalue="Application.mainClass" />
         <item itemvalue="Application.ExceptionHandling" />
         <item itemvalue="Application.LambdaMain" />
-        <item itemvalue="Application.ArraysExample" />
-        <item itemvalue="Application.ConditionalLoopsAndStatements" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564832734112</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="String Builder Example Done">
+      <created>1564833197200</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564833197200</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,7 +213,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -221,7 +230,8 @@
     <MESSAGE value="Oops class changed" />
     <MESSAGE value="Some Methods Changes" />
     <MESSAGE value="String-INteger Conversion done" />
-    <option name="LAST_COMMIT_MESSAGE" value="String-INteger Conversion done" />
+    <MESSAGE value="String Builder Example Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="String Builder Example Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
