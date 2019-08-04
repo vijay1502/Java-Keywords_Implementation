@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564932626428</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Code for Tree Set Done">
+      <created>1564936899602</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564936899602</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +245,8 @@
     <MESSAGE value="String-INteger Conversion done" />
     <MESSAGE value="String Builder Example Done" />
     <MESSAGE value="Collections Class Created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections Class Created" />
+    <MESSAGE value="Code for Tree Set Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code for Tree Set Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,6 +9,7 @@ public class CollectionsExample {
         collectionsExample.queueExample();
         collectionsExample.setExample();
         collectionsExample.treeSetExample();
+        collectionsExample.stringIntegerMap();
     }
     public List<String> arrayList(){
         ArrayList<String> list=new ArrayList<String>();//Creating arraylist
@@ -70,6 +71,10 @@ public class CollectionsExample {
     }
 
     public Map<String,Integer> stringIntegerMap(){
-
+        HashMap<String,Integer> mapExample=new HashMap<>();
+        mapExample.put("Vijay",1);
+        mapExample.put("Vijayak",2);
+        System.out.println(mapExample);
+        return mapExample;
     }
 }
