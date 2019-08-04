@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e914d9c0-b473-4020-87e9-6138a4b7c1a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/BasicIOExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/CollectionsExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/CollectionsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/CollectionsExample.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564833197200</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Collections Class Created">
+      <created>1564932626428</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1564932626428</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +237,8 @@
     <MESSAGE value="Some Methods Changes" />
     <MESSAGE value="String-INteger Conversion done" />
     <MESSAGE value="String Builder Example Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="String Builder Example Done" />
+    <MESSAGE value="Collections Class Created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collections Class Created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

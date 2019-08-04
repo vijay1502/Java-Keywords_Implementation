@@ -7,6 +7,8 @@ public class CollectionsExample {
         CollectionsExample collectionsExample=new CollectionsExample();
         System.out.println(collectionsExample.arrayList());
         collectionsExample.queueExample();
+        collectionsExample.setExample();
+        collectionsExample.treeSetExample();
     }
     public List<String> arrayList(){
         ArrayList<String> list=new ArrayList<String>();//Creating arraylist
@@ -43,4 +45,31 @@ public class CollectionsExample {
             System.out.println(itr2.next());
         }
     return queue;}
+    public Set<String> setExample(){
+        HashSet<String> stringSet=new HashSet<String>();
+        stringSet.add("Hello");
+        stringSet.add("World");
+        stringSet.add("This is sout-set");
+        System.out.println(stringSet);
+        System.out.println(" "+
+        stringSet.contains("yes")+" "+
+        stringSet.isEmpty()+" "+
+        stringSet.remove("Hello")+" "+
+        stringSet.size());
+    return stringSet;}
+    public TreeSet<String> treeSetExample(){
+        TreeSet<String> stringTreeSet=new TreeSet<String>();
+        stringTreeSet.add("Hello");
+        stringTreeSet.add("Hello");
+        stringTreeSet.add("Bells");
+        stringTreeSet.add("Click");
+        System.out.println(stringTreeSet);
+        stringTreeSet.remove("Hello");
+        System.out.println(stringTreeSet);
+        return stringTreeSet;
+    }
+
+    public Map<String,Integer> stringIntegerMap(){
+
+    }
 }
