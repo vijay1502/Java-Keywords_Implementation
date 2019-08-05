@@ -12,7 +12,7 @@ public class LambdaMain {
             }
         });
         //By Lambda Expression
-        new Thread(()->{
+        new Thread(() -> {
             System.out.println("Lambda");
             System.out.println("Another Lambda");
             System.out.println("Lambda2");

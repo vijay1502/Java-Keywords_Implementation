@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e914d9c0-b473-4020-87e9-6138a4b7c1a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Generics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Keyword-Implementations/com/stackroute/ConditionalLoopsAndStatements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Keyword-Implementations/com/stackroute/ConditionalLoopsAndStatements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/ArraysExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/ArraysExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/BasicIOExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/BasicIOExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/CollectionsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/CollectionsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/ConditionalLoopsAndStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/ConditionalLoopsAndStatements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/ExceptionHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/InetrfaceProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/InetrfaceProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/InheritenceClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/InheritenceClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/mainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/mainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/StringBuilderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/StringBuilderExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/StringIntegerConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/StringIntegerConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/lambdaDemo/LambdaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/lambdaDemo/LambdaMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Java-Exercises-pe3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -47,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CollectionsExample">
+  <component name="RunManager" selected="Application.Generics">
     <configuration name="BasicIOExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stackroute.BasicIOExample" />
       <module name="Java-Keyword-Implementations" />
@@ -87,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.lambdaDemo.LambdaMain" />
+    <configuration name="Generics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.Generics" />
       <module name="Java-Keyword-Implementations" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stackroute.lambdaDemo.*" />
+          <option name="PATTERN" value="com.stackroute.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,19 +126,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LambdaMain" />
       <item itemvalue="Application.mainClass" />
       <item itemvalue="Application.ExceptionHandling" />
       <item itemvalue="Application.BasicIOExample" />
       <item itemvalue="Application.CollectionsExample" />
+      <item itemvalue="Application.Generics" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Generics" />
         <item itemvalue="Application.CollectionsExample" />
         <item itemvalue="Application.BasicIOExample" />
         <item itemvalue="Application.mainClass" />
         <item itemvalue="Application.ExceptionHandling" />
-        <item itemvalue="Application.LambdaMain" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564936899602</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Hash Map collection is Done">
+      <created>1564937359821</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564937359821</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,19 +265,20 @@
     <MESSAGE value="String Builder Example Done" />
     <MESSAGE value="Collections Class Created" />
     <MESSAGE value="Code for Tree Set Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code for Tree Set Done" />
+    <MESSAGE value="Hash Map collection is Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hash Map collection is Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/mainClass.java</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/stackroute/OOPSExamples/mainClass.java</url>
-          <line>8</line>
+          <line>9</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

@@ -6,9 +6,10 @@ public class StringIntegerConversion {
         int integer = Integer.parseInt(string);
         return integer;
     }
-    public String integerConversion(){
-        int integer=100;
-        String result=Integer.toString(integer);
+
+    public String integerConversion() {
+        int integer = 100;
+        String result = Integer.toString(integer);
         return result;
     }
 }

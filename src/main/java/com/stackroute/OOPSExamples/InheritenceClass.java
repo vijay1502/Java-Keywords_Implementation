@@ -1,9 +1,8 @@
 package com.stackroute.OOPSExamples;
 
 
-
-public class InheritenceClass extends Implementation{
-     private int age;
+public class InheritenceClass extends Implementation {
+    private int age;
     private int salary;
 
     public InheritenceClass(int age, int salary) {
@@ -22,9 +21,11 @@ public class InheritenceClass extends Implementation{
         super.method2();
         return "VVIjay";
     }
-    public String method3(int serial,String name,int age){
-        return ("serial is "+serial+" name is "+name+" age is "+age);
+
+    public String method3(int serial, String name, int age) {
+        return ("serial is " + serial + " name is " + name + " age is " + age);
     }
+
     public int getAge() {
         return age;
     }

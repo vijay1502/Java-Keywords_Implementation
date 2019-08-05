@@ -3,16 +3,17 @@ package com.stackroute;
 import java.util.*;
 
 public class CollectionsExample {
-    public static void main(String args[]){
-        CollectionsExample collectionsExample=new CollectionsExample();
+    public static void main(String args[]) {
+        CollectionsExample collectionsExample = new CollectionsExample();
         System.out.println(collectionsExample.arrayList());
         collectionsExample.queueExample();
         collectionsExample.setExample();
         collectionsExample.treeSetExample();
         collectionsExample.stringIntegerMap();
     }
-    public List<String> arrayList(){
-        ArrayList<String> list=new ArrayList<String>();//Creating arraylist
+
+    public List<String> arrayList() {
+        ArrayList<String> list = new ArrayList<String>();//Creating arraylist
         list.add("Krishna");//Adding object in arraylist
         list.add("Vijay");
         list.add("Kashyap");
@@ -21,13 +22,14 @@ public class CollectionsExample {
         System.out.println(list.contains("Vijay"));
         System.out.println(list.get(1));
         list.remove("Kashyap");
-        list.set(0,"Vijaya");
+        list.set(0, "Vijaya");
         System.out.println(list.lastIndexOf("Vijay"));
-        Iterator itr=list.iterator();
-        while(itr.hasNext()){
+        Iterator itr = list.iterator();
+        while (itr.hasNext()) {
             System.out.println(itr.next());
         }
-    return list;}
+        return list;
+    }
 
     public Queue<String> queueExample() {
         PriorityQueue<String> queue = new PriorityQueue<String>();
@@ -45,21 +47,25 @@ public class CollectionsExample {
         while (itr2.hasNext()) {
             System.out.println(itr2.next());
         }
-    return queue;}
-    public Set<String> setExample(){
-        HashSet<String> stringSet=new HashSet<String>();
+        return queue;
+    }
+
+    public Set<String> setExample() {
+        HashSet<String> stringSet = new HashSet<String>();
         stringSet.add("Hello");
         stringSet.add("World");
         stringSet.add("This is sout-set");
         System.out.println(stringSet);
-        System.out.println(" "+
-        stringSet.contains("yes")+" "+
-        stringSet.isEmpty()+" "+
-        stringSet.remove("Hello")+" "+
-        stringSet.size());
-    return stringSet;}
-    public TreeSet<String> treeSetExample(){
-        TreeSet<String> stringTreeSet=new TreeSet<String>();
+        System.out.println(" " +
+                stringSet.contains("yes") + " " +
+                stringSet.isEmpty() + " " +
+                stringSet.remove("Hello") + " " +
+                stringSet.size());
+        return stringSet;
+    }
+
+    public TreeSet<String> treeSetExample() {
+        TreeSet<String> stringTreeSet = new TreeSet<String>();
         stringTreeSet.add("Hello");
         stringTreeSet.add("Hello");
         stringTreeSet.add("Bells");
@@ -70,10 +76,10 @@ public class CollectionsExample {
         return stringTreeSet;
     }
 
-    public Map<String,Integer> stringIntegerMap(){
-        HashMap<String,Integer> mapExample=new HashMap<>();
-        mapExample.put("Vijay",1);
-        mapExample.put("Vijayak",2);
+    public Map<String, Integer> stringIntegerMap() {
+        HashMap<String, Integer> mapExample = new HashMap<>();
+        mapExample.put("Vijay", 1);
+        mapExample.put("Vijayak", 2);
         System.out.println(mapExample);
         return mapExample;
     }
